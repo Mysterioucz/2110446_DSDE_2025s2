@@ -1,0 +1,3 @@
+[submodule "resource"]
+	path = resource
+	url = git@github.com:pvateekul/2110446_DSDE_2025s2.git
