@@ -1,5 +1,5 @@
 import pandas as pd
-from student import *
+from optimized_student import *
 
 
 def main():
