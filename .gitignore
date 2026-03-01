@@ -2,3 +2,7 @@
 .DS_Store
 .venv
 **/.env
+**/wandb
+**/*.zip
+**/my_multi_label_classify_model*
+**/*.csv
