@@ -8,3 +8,4 @@
 **/*.csv
 **/kaggle.json
 final-project/
+*.png
