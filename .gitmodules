@@ -1,3 +1,6 @@
 [submodule "resource"]
 	path = resource
 	url = git@github.com:pvateekul/2110446_DSDE_2025s2.git
+[submodule "dsde_final_project"]
+	path = dsde_final_project
+	url = git@github.com:098ff/dsde_final_project.git

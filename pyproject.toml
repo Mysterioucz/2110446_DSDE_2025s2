@@ -259,4 +259,4 @@ members = [
     "grader/*",
     "resource/*",
 ]
-exclude = ["final-project", "midterm"]
+exclude = ["final-project", "midterm", "dsde_final_project"]
