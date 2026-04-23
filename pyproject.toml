@@ -256,7 +256,6 @@ dependencies = [
 
 [tool.uv.workspace]
 members = [
-    "grader/*",
-    "resource/*",
+    "assignment/assignment_14",
 ]
-exclude = ["final-project", "midterm", "dsde_final_project"]
+exclude = ["final-project", "midterm", "dsde_final_project", "resource"]
