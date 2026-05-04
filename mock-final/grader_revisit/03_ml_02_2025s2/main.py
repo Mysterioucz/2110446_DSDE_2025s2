@@ -3,12 +3,14 @@ from student import *
 def main():
     hw = BankLogistic('./bank-st.csv')
     
-    # Get the input command from the user
-    input_string = input().strip()
+    print(hw.Q1())
+    print(hw.Q2())
+    print(hw.Q3())
+    print(hw.Q4())
+    print(hw.Q5())
+    print(hw.Q6())
+    print(hw.Q7())
     
-    # Dynamically call the method on the hw object and print the result
-    input_command = f"hw.{input_string}()"
-    print(f"{eval(input_command)}")
 
 if __name__ == "__main__":
     main()
