@@ -169,6 +169,7 @@ dependencies = [
     "pygments==2.19.2",
     "pyparsing==3.3.1",
     "pysocks==1.7.1",
+    "pyspark>=4.1.1",
     "pythainlp==5.2.0",
     "python-dateutil==2.9.0.post0",
     "python-json-logger==4.0.0",
