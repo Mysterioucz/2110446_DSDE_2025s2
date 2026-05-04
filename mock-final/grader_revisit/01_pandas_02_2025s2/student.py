@@ -12,7 +12,8 @@ def Q1():
         - To access 'videos.csv', use the path '/data/videos.csv'.
     """
     # TODO: Paste your code here
-    return None
+    df = pd.read_csv('/data/videos.csv')
+    return df.shape[0]
 
 def Q2(vdo_df):
     '''
@@ -21,7 +22,7 @@ def Q2(vdo_df):
             - The duplicate rows of vdo_df have been removed.
     '''
     # TODO: Paste your code here
-    return None
+    return (df['dislikes'] > df['likes']).sum()
 
 def Q3(vdo_df):
     '''
